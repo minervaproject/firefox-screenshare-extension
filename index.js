@@ -13,7 +13,7 @@ var arrayOfMyOwnDomains = [
   'local.av.minervaproject.com',
   'development.av.minervaproject.com',
   'staging.av.minervaproject.com',
-  'av.minervaproject.com',
+  'proctor.av.minervaproject.com',
   'schools-development.minervaproject.com',
   'schools-staging.minervaproject.com',
   'www.minerva.kgi.edu',
