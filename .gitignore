@@ -1,0 +1,4 @@
+*.xpi
+*.swo
+*.swp
+npm-debug.log
