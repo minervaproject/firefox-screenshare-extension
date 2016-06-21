@@ -85,6 +85,8 @@ This will produce a file like `minerva_schools_at_kgi_screen_sharing-0.0.5-fx.xp
 that can be installed into Firefox as an addon.  You can self-host this file
 and point clients to it.
 
+We currently distribute this as part of the proctor codebase.
+
 
 ## Build listed
 
