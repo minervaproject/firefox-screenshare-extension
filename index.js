@@ -86,3 +86,13 @@ var pageMod = mod.PageMod({
     contentScriptFile: "./../content-script.js",
     contentScriptWhen: "ready"
 });
+
+// Upon installation, notify existing tabs of installation
+exports.main = function (options, callbacks) {
+    var tabs = require('sdk/tabs');
+    for (let tab of tabs) {
+        tab.attach({
+            contentScript: 'window.postMessage({isMinervaScreenCapturingEnabled: true }, "*");'
+        });
+    };
+};

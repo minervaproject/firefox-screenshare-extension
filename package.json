@@ -1,7 +1,7 @@
 {
   "title": "Minerva Schools at KGI Screen Sharing",
   "name": "minerva-kgi-edu-screenshare",
-  "version": "0.0.5",
+  "version": "0.0.10",
   "description": "Enables screen sharing for Minerva Schools at KGI",
   "main": "index.js",
   "author": "Minerva Project <dev@minervaproject.com>",
